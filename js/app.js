@@ -157,3 +157,21 @@ btnFormThree.onclick = function () {
 	document.querySelector(".form__hide-3").classList.add('active');
 }
 
+var swiper = new Swiper('.otz__slider', {
+	spaceBetween: 100,
+	grabCursor: true,
+	autoHeight: true,
+	simulateTouch: true,
+	centeredSlides: true,
+	slidesPerView: 1,
+	speed: 600,
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	pagination: {
+		el: '.swiper-pagination',
+	},
+
+
+})
